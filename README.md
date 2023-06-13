@@ -53,5 +53,7 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 
 This project is licensed under the [MIT License](LICENSE).
 
+## Author
+This App was Developed by [Mr. Learned](https://twitter.com/nez_Dking) CEO @ [(LDC) Concepts](https://learnedsconcept.onrender.com)
 
 
