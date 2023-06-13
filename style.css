@@ -1,0 +1,92 @@
+:root {
+    --pink-light: #FAAA82;
+    --pink-deep: #FE7F7A;
+    --gray: #b3b2b2;
+}
+*{
+    box-sizing: border-box;
+    font-family: roboto;
+}
+body{
+    font-family: roboto;
+}
+.appCon{
+    box-shadow: 1px 1px 15px black;
+    border-radius: 15px;
+}
+.title{
+    background-image: linear-gradient(to right, var(--pink-deep), var(--pink-light));
+    font: bolder 18px roboto;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+.semester{
+    font: bolder 15px roboto;
+    padding: 10px 0;
+    color: var(--pink-deep);
+}
+
+.removeBtn{
+    color: #FAAA82;
+    font-weight: 500;
+    background-color: transparent;
+    border-radius: 150px;
+    padding: 7px 10px;
+    border: 1px solid #FAAA82;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.coursebox .mainBox{
+    display: flex;
+    align-items: center;
+    margin: 0 0 10px 0;
+
+}
+.mainBox .gradeContainer{
+    width: 100%;
+}
+.coursebox .coursecode{
+    width: 100%;
+    padding: 10px;
+    font: 700 12px roboto;
+    border: 1px solid var(--gray);
+    outline: none;
+}
+.coursebox select, .unitPoint{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--gray);
+    font-weight: bolder;
+    outline: none;
+    border-radius: 0 0 5px 5px;
+}
+
+.addcourse{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--gray);
+    border-style: dashed;
+    cursor: pointer;
+}
+.calculateBtn{
+    border-bottom: 1px solid var(--gray);
+    padding: 0 0 15px 0;
+    text-align: center;
+}
+.calculateBtn button{
+    background-image: linear-gradient(to right, var(--pink-deep), var(--pink-light));
+    color: white;
+    font-weight: bolder;
+    border-radius: 25px;
+    padding: 10px 35px;
+    border: transparent;
+    cursor: pointer;
+}
+.gpaResult h1{
+    color: var(--pink-deep);
+    font-weight: bolder;
+}
