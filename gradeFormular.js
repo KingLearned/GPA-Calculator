@@ -17,6 +17,6 @@ export const courseGrade = () => {
     EachPoint.forEach(Point => {
         Point.addEventListener('keyup', () => { Point.setAttribute('value', Point.value) }) //Retaining Unit Point
     });
-    
+      
 }
 courseGrade()
