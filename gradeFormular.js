@@ -10,7 +10,6 @@ export const courseGrade = () => {
         })
     });
     
-    
     CourseCode.forEach(Code => {
         Code.addEventListener('keyup', () => { Code.setAttribute('value', Code.value) }) //Retainig Code
     });
