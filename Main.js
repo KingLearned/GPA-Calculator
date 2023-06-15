@@ -13,6 +13,7 @@ addCourseBtn.addEventListener('click', () => {
     key++;    semesterCourses.innerHTML += courseForm(key); courseGrade(); removeCoures();
 })
 
+//calculate the GPA of the semester course
 calculateBtn.addEventListener('click', () => {
     calculateGPA()
 })
